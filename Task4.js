@@ -7,7 +7,7 @@ switch(count) {
 	case 0:
 	  mySquare.style.backgroundColor = "red";
 	  myButton.value = "make green";
-	  count=1;
+	  count = 1;
 	  break;
 	case 1:
 	  mySquare.style.backgroundColor = "green";
