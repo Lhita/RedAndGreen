@@ -1,5 +1,5 @@
 (function () {
-	if(document.getElementById('mySquare').style.backgroundColor === 'orange') {
+	if(document.getElementById('mySquare').style.backgroundColor === 'green') {
 		window.alert('success');
 	}
 	else {
