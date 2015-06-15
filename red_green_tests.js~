@@ -1,0 +1,16 @@
+ var rg = new RedOrGreen("mySquare");
+
+   rg.makeGreen('mySquare');
+	if(document.getElementById('mySquare').style.backgroundColor === 'green') {
+		window.alert('myElements background color should be green now');
+	}
+	else {
+		window.alert('failure');
+}
+	rg.makeRed('mySquare');
+	if(document.getElementById('mySquare').style.backgroundColor === 'red') {
+		window.alert('myElements background color should be red now');
+	}
+	else{
+		window.alert('failure');
+}
